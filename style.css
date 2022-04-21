@@ -16,6 +16,7 @@ img{
 
 .toc{
   border: 1px solid;
+  box-sizing: border-box;color: black;
   
 }
 .td{
@@ -24,7 +25,13 @@ img{
 th, td {
   padding: 20px;
   text-align: left;
+  
 }
+table, th, td {
+  border: 1px solid black;
+}
+
+
 
 .tip{
   font-size: 30px;
